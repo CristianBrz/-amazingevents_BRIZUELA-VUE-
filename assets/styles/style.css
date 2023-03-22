@@ -1,0 +1,54 @@
+body {
+  background-color: #d90367c0;
+}
+
+.btn-outline-danger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95px;
+  line-height: 15px;
+  border: 2px #d90368 solid;
+}
+
+/* .btn-outline-danger:active, */
+/* .btn-outline-danger:visited, */
+.btn-outline-danger:hover {
+  background-color: #d90368;
+  border: 2px #d90368 solid;
+}
+
+.hover:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 5px 15px 5px #000000;
+  transition-duration: 0.5s;
+  z-index: 1;
+}
+
+main {
+  min-height: 80vh;
+}
+
+article {
+  min-height: 20rem;
+}
+
+.mgn {
+  margin-top: 72px;
+}
+
+@media screen and (max-width: 768px) {
+  .mgn {
+    margin-top: 58px;
+  }
+}
+
+.heigthCard{
+  min-height: 398px;
+}
+
+.txtDec{
+  text-decoration: none;
+  color: #ffffff;
+;
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="../assets/styles/style.css">
+
+    <link
+      rel="shortcut icon"
+      href="../assets/img/favicon.png"
+      type="image/x-icon">
+    <title>Past Events</title>
+  </head>
+
+  <body>
+    <header class="d-flex justify-content-center flex-column">
+      <nav class="fixed-top navbar navbar-expand-md navbar-dark bd-navbar bg-dark">
+        <div class="container-xxl d-flex flex-wrap flex-md-nowrap">
+          <figure class="my-0">
+            <img
+              src="../assets/img/Logo_Amazing_Events.png"
+              alt="Logo Amazing Events"
+              width="120">
+          </figure>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#bdNavbar"
+            aria-controls="bdNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              class="bi"
+              fill="currentColor"
+              viewBox="0 0 16 16">
+              <path
+                fill-rule="evenodd"
+                d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+          </button>
+
+          <!-- Enlaces -->
+
+          <div class="collapse navbar-collapse" id="bdNavbar">
+            <hr class="d-md-none text-white-50">
+
+            <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+              <li
+                class="nav-item btn btn-outline-danger p-0 m-1 col-6 col-md-auto">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+
+              <li
+                class="nav-item btn btn-outline-danger p-0 m-1 col-6 col-md-auto">
+                <a class="nav-link" href="upcoming_events.html"
+                  >Upcoming Events</a
+                >
+              </li>
+
+              <li
+                class="nav-item btn btn-outline-danger p-0 m-1 col-6 col-md-auto">
+                <a class="nav-link" href="#">Past Events</a>
+              </li>
+
+              <li
+                class="nav-item btn btn-outline-danger p-0 m-1 col-6 col-md-auto">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+
+              <li
+                class="nav-item btn btn-outline-danger p-0 m-1 col-6 col-md-auto">
+                <a class="nav-link" href="stats.html">Stats</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- CAROUSEL -->
+      <div class="bg-dark bg-gradient mgn">
+        <div id="carouselExample" class="container-xxl carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h2 class="text-center p-5 text-light-emphasis">PAST EVENTS</h2>
+            </div>
+
+              <a class="txtDec carousel-control-prev" href="upcoming_events.html">
+                <span class="bi bi-caret-left fs-2" aria-hidden="true"></span>
+              </a>
+
+              <a class="txtDec carousel-control-next" href="contact.html">
+                <span class="bi bi-caret-right fs-2" aria-hidden="true"></span>
+              </a>
+
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <!-- FORMULARIO -->
+      <form id="form" class="my-5">
+        <div class="row">
+          <fieldset id="checkboxes" class="d-flex flex-wrap col-12 col-xl-8 mb-2 my-1">
+
+          </fieldset>
+
+          <!-- busqueda -->
+          <div class="col-12 col-xl-4">
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control"
+                aria-label="Sizing example input"
+                placeholder="search">
+            </div>
+          </div>
+        </div>
+      </form>
+
+      <!-- tarjetas -->
+      <div class="container mb-5">
+        <div id="cards" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-3">
+        </div>
+      </div>      
+
+    </main>
+
+    <footer
+      class="d-flex flex-wrap justify-content-around align-items-center py-3 mt-5 bg-dark">
+      <div class="col-md-4 d-flex align-items-center">
+        <p class="mb-3 mb-md-0 text-bg-dark fs-2">FE06-TN</p>
+      </div>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3">
+          <a
+            class="text-bg-dark fs-2"
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer">
+            <i class="bi bi-instagram"></i>
+          </a>
+        </li>
+
+        <li class="ms-3">
+          <a
+            class="text-bg-dark fs-2"
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener noreferrer">
+            <i class="bi bi-facebook"></i>
+          </a>
+        </li>
+
+        <li class="ms-3">
+          <a
+            class="text-bg-dark fs-2"
+            href="https://wa.me"
+            target="_blank"
+            rel="noopener noreferrer">
+            <i class="bi bi-whatsapp"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script type="module" src="../assets/js/past_events.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
